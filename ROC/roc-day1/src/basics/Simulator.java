@@ -1,5 +1,7 @@
 package basics;
 
+import second.Cat;
+
 public class Simulator {
 
 	   public static void main(String[] args) {
@@ -11,5 +13,10 @@ public class Simulator {
 			System.out.println(dog.name);
 			System.out.println(dog.age);
 			dog.bark();
+			
+			Cat cat = new Cat();
+			/*
+			 * The cat object can be used due to the import statement.  
+			 */
 	   }
 }

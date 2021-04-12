@@ -4,6 +4,8 @@ public class Casting {
 	/*
 	 * When casting, Java will implicitly 
 	 * upcast (convert from smaller to larger)
+	 * but you must explicitly downcast (convert
+	 * from larger to smaller)
 	 * 
 	 */
 	public static void main(String[] args) {
