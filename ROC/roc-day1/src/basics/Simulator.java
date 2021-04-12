@@ -10,5 +10,6 @@ public class Simulator {
 			dog.breed = "Black Lab";
 			System.out.println(dog.name);
 			System.out.println(dog.age);
+			dog.bark();
 	   }
 }
